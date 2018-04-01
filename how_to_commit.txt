@@ -1,0 +1,10 @@
+1. go to directory
+2. git init
+3. git remote add origin "https://github.com/adityarev/ParkingLot"
+4. git config --global user.name "adityarev"
+5. git config --global user.email "aditya.vritalia@gmaul.com"
+---
+6. git add <filename>
+7. git commit -m <string_action>
+8. git push
+
