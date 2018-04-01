@@ -153,11 +153,15 @@ public :
 	}
 };
 
-int main()
+int main(int argc, char **argv)
 {
 	Parking *parkingLot;
 	int N;
 	string command;
+	
+	for (int i=0; i<argc; i++) {
+		printf ("%d -> %s\n", i+1, argv[i]);
+	}
 	
 	// Waiting for create command
 	while (cin >> command) {
